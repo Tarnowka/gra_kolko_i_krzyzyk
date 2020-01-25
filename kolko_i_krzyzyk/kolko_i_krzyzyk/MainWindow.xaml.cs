@@ -24,5 +24,16 @@ namespace kolko_i_krzyzyk
         {
             InitializeComponent();
         }
+        private void start(object sender, RoutedEventArgs e)
+        {
+            var game = new Game();
+            game.Show();
+            this.Close();
+        }
+
+        private void exit(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

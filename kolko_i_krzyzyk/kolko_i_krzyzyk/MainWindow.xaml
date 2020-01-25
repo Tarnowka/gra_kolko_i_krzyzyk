@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:kolko_i_krzyzyk"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="341.67" Width="400">
     <Grid>
-        
+        <Button Content="START" Click="start" HorizontalAlignment="Left" Margin="117,90,0,0" VerticalAlignment="Top" Width="150" Height="60" FontSize="30"/>
+        <Button Content="EXIT" Click="exit" HorizontalAlignment="Left" Margin="118,168,0,0" VerticalAlignment="Top" Width="150" Height="60" FontSize="30"/>
     </Grid>
 </Window>
