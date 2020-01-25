@@ -11,51 +11,63 @@
             <Setter Property="FontSize" Value="50"/>
         </Style>
     </Window.Resources>
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="80"/>
-            <ColumnDefinition Width="80"/>
-            <ColumnDefinition Width="80"/>
-            <ColumnDefinition Width="80"/>
-            <ColumnDefinition Width="80"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+    <Grid Background="LightSlateGray">
+        <Grid x:Name="container">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
 
-        <Button Click="Button_Click" x:Name="button00" Grid.Column="0" Grid.Row="0"/>
-        <Button Click="Button_Click" x:Name="button01" Grid.Column="0" Grid.Row="1"/>
-        <Button Click="Button_Click" x:Name="button02" Grid.Column="0" Grid.Row="2"/>
-        <Button Click="Button_Click" x:Name="button03" Grid.Column="0" Grid.Row="3"/>
-        <Button Click="Button_Click" x:Name="button04" Grid.Column="0" Grid.Row="4"/>
+            <Button Click="Button_Click" x:Name="button00" Grid.Column="0" Grid.Row="0"/>
+            <Button Click="Button_Click" x:Name="button01" Grid.Column="0" Grid.Row="1"/>
+            <Button Click="Button_Click" x:Name="button02" Grid.Column="0" Grid.Row="2"/>
+            <Button Click="Button_Click" x:Name="button03" Grid.Column="0" Grid.Row="3"/>
+            <Button Click="Button_Click" x:Name="button04" Grid.Column="0" Grid.Row="4"/>
 
-        <Button Click="Button_Click" x:Name="button10" Grid.Column="1" Grid.Row="0"/>
-        <Button Click="Button_Click" x:Name="button11" Grid.Column="1" Grid.Row="1"/>
-        <Button Click="Button_Click" x:Name="button12" Grid.Column="1" Grid.Row="2"/>
-        <Button Click="Button_Click" x:Name="button13" Grid.Column="1" Grid.Row="3"/>
-        <Button Click="Button_Click" x:Name="button14" Grid.Column="1" Grid.Row="4"/>
+            <Button Click="Button_Click" x:Name="button10" Grid.Column="1" Grid.Row="0"/>
+            <Button Click="Button_Click" x:Name="button11" Grid.Column="1" Grid.Row="1"/>
+            <Button Click="Button_Click" x:Name="button12" Grid.Column="1" Grid.Row="2"/>
+            <Button Click="Button_Click" x:Name="button13" Grid.Column="1" Grid.Row="3"/>
+            <Button Click="Button_Click" x:Name="button14" Grid.Column="1" Grid.Row="4"/>
 
-        <Button Click="Button_Click" x:Name="button20" Grid.Column="2" Grid.Row="0"/>
-        <Button Click="Button_Click" x:Name="button21" Grid.Column="2" Grid.Row="1"/>
-        <Button Click="Button_Click" x:Name="button22" Grid.Column="2" Grid.Row="2"/>
-        <Button Click="Button_Click" x:Name="button23" Grid.Column="2" Grid.Row="3"/>
-        <Button Click="Button_Click" x:Name="button24" Grid.Column="2" Grid.Row="4"/>
+            <Button Click="Button_Click" x:Name="button20" Grid.Column="2" Grid.Row="0"/>
+            <Button Click="Button_Click" x:Name="button21" Grid.Column="2" Grid.Row="1"/>
+            <Button Click="Button_Click" x:Name="button22" Grid.Column="2" Grid.Row="2"/>
+            <Button Click="Button_Click" x:Name="button23" Grid.Column="2" Grid.Row="3"/>
+            <Button Click="Button_Click" x:Name="button24" Grid.Column="2" Grid.Row="4"/>
 
-        <Button Click="Button_Click" x:Name="button30" Grid.Column="3" Grid.Row="0"/>
-        <Button Click="Button_Click" x:Name="button31" Grid.Column="3" Grid.Row="1"/>
-        <Button Click="Button_Click" x:Name="button32" Grid.Column="3" Grid.Row="2"/>
-        <Button Click="Button_Click" x:Name="button33" Grid.Column="3" Grid.Row="3"/>
-        <Button Click="Button_Click" x:Name="button34" Grid.Column="3" Grid.Row="4"/>
+            <Button Click="Button_Click" x:Name="button30" Grid.Column="3" Grid.Row="0"/>
+            <Button Click="Button_Click" x:Name="button31" Grid.Column="3" Grid.Row="1"/>
+            <Button Click="Button_Click" x:Name="button32" Grid.Column="3" Grid.Row="2"/>
+            <Button Click="Button_Click" x:Name="button33" Grid.Column="3" Grid.Row="3"/>
+            <Button Click="Button_Click" x:Name="button34" Grid.Column="3" Grid.Row="4"/>
 
-        <Button Click="Button_Click" x:Name="button40" Grid.Column="4" Grid.Row="0"/>
-        <Button Click="Button_Click" x:Name="button41" Grid.Column="4" Grid.Row="1"/>
-        <Button Click="Button_Click" x:Name="button42" Grid.Column="4" Grid.Row="2"/>
-        <Button Click="Button_Click" x:Name="button43" Grid.Column="4" Grid.Row="3"/>
-        <Button Click="Button_Click" x:Name="button44" Grid.Column="4" Grid.Row="4"/>
+            <Button Click="Button_Click" x:Name="button40" Grid.Column="4" Grid.Row="0"/>
+            <Button Click="Button_Click" x:Name="button41" Grid.Column="4" Grid.Row="1"/>
+            <Button Click="Button_Click" x:Name="button42" Grid.Column="4" Grid.Row="2"/>
+            <Button Click="Button_Click" x:Name="button43" Grid.Column="4" Grid.Row="3"/>
+            <Button Click="Button_Click" x:Name="button44" Grid.Column="4" Grid.Row="4"/>
+        </Grid>
+
+        <TextBlock HorizontalAlignment="Left" Margin="436,56,0,0" TextWrapping="Wrap" Text="Punktacja" VerticalAlignment="Top" Height="58" Width="173" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="468,121,0,0" TextWrapping="Wrap" Text="Player X" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="536,121,0,0" TextWrapping="Wrap" Text="Player O" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="511,161,0,0" TextWrapping="Wrap" Text="Draw" VerticalAlignment="Top"/>
+        <Label x:Name="remis" Content="0" HorizontalAlignment="Left" Margin="520,178,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="pl1" Content="0" HorizontalAlignment="Left" Margin="552,140,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="pl2" Content="0" HorizontalAlignment="Left" Margin="483,140,0,0" VerticalAlignment="Top" Foreground="White"/>
+
+
     </Grid>
 </Window>

@@ -5,9 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:kolko_i_krzyzyk"
         mc:Ignorable="d"
-        Title="MainWindow" Height="341.67" Width="400">
-    <Grid>
+        Title="MainWindow" Height="307.17" Width="400">
+    <Grid Background="LightSlateGray">
+        <Label Content="KÓŁKO I KRZYŻYK" HorizontalAlignment="Left" Margin="25,14,0,0" VerticalAlignment="Top" FontSize="40"/>
         <Button Content="START" Click="start" HorizontalAlignment="Left" Margin="117,90,0,0" VerticalAlignment="Top" Width="150" Height="60" FontSize="30"/>
         <Button Content="EXIT" Click="exit" HorizontalAlignment="Left" Margin="118,168,0,0" VerticalAlignment="Top" Width="150" Height="60" FontSize="30"/>
     </Grid>
+
+
 </Window>
